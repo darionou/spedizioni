@@ -1,0 +1,26 @@
+<wicket:extend>
+      <table wicket:id="merci">
+        
+      </table>
+      <form wicket:id="insmodmerce">
+        <fieldset>
+          <label for="codice">
+            Codice: 
+              <input type="text" wicket:id="codice" 
+                         id="codice">
+          </label>
+          <label for="descrizione">
+            Descrizione: 
+              <input type="text" wicket:id="descrizione" 
+                         id="descrizione">
+          </label>
+          <label for="peso">
+            Peso: 
+              <input type="number" wicket:id="peso" 
+                         id="peso">
+          </label>
+          <input type="submit" value="Invia">
+        </fieldset>
+      </form>
+  <div wicket:id="feedback"></div>
+</wicket:extend>
